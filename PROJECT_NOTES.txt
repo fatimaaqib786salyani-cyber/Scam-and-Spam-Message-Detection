@@ -1,0 +1,50 @@
+SCAM & SPAM MESSAGE DETECTION PROJECT
+=====================================
+
+PROJECT DESCRIPTION
+This project detects spam and ordinary SMS messages using Machine Learning.
+
+OBJECTIVE
+To identify potentially suspicious messages and provide safety warnings.
+
+TECHNOLOGIES USED
+- Python
+- Pandas
+- Scikit-learn
+- TF-IDF
+- Logistic Regression
+- Streamlit
+- Matplotlib
+- Google Gemini API (optional)
+
+DATASET INFORMATION
+Total Messages: 5,574
+Ham Messages: 4,827
+Spam Messages: 747
+
+MODEL EVALUATION
+Accuracy: 99.19%
+Spam Precision: 95%
+Spam Recall: 99%
+Spam F1-score: 97%
+Evaluation Samples: 1,115
+
+APPLICATION FEATURES
+- Spam and ham message classification
+- Suspicious keyword detection
+- Optional Gemini AI explanation
+- Confusion matrix graph
+- User safety disclaimer
+
+IMPORTANT NOTE
+The reported evaluation score should be verified on an independent test set. A ham prediction does not guarantee that a message is safe. Never share passwords, banking details, or OTPs with untrusted sources.
+
+PROJECT FILES
+- app.py
+- evaluate_model.py
+- spam_ml_model.pkl
+- confusion_matrix.png
+- README.md
+- PROJECT_NOTES.txt
+
+Created for a Machine Learning project.
